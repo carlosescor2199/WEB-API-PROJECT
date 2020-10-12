@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d9b9459-1112-484e-b666-ad4561b24a51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/WEB-API-PROJECT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Contact/contact_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Contact/contact_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/contact/contact.go" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Contact/contact.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ilQKPjdjG4v9hpsQk9vvRPBGi9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carli\Documents\10mo semestre\Programacion Movil\WEB-API-PROJECT\Model\contacts" />
+      <recent name="C:\Users\carli\Documents\10mo semestre\Programacion Movil\WEB-API-PROJECT\database" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="WEB-API-PROJECT" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d9b9459-1112-484e-b666-ad4561b24a51" name="Default Changelist" comment="" />
+      <created>1602479633844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602479633844</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="539" y="262" key="Github.ShareDialog" timestamp="1602487385590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="539" y="262" key="Github.ShareDialog/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1602487385590" />
+    <state x="393" y="69" key="Github.UntrackedFilesDialog" timestamp="1602487410722">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="393" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1602487410722" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1602487335514">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1602487335514" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1602487335514">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1602487335514" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1602487335514">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1602487335514" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1602487335514">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1602487335514" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602480595165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1602480595165" />
+  </component>
+</project>
