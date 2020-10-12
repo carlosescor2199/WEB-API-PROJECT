@@ -2,7 +2,7 @@ package Contact
 
 import (
 	"../../Database"
-	contactModel "../../Model/contact"
+	contactModel "../../Model/Contact"
 	"encoding/json"
 	"github.com/gorilla/mux"
 	"go.mongodb.org/mongo-driver/bson"
@@ -44,7 +44,7 @@ func GetContacts(w http.ResponseWriter, r *http.Request) {
 	_ = json.NewEncoder(w).Encode(contacts)
 }
 
-func GetContact(w http.ResponseWriter, r *http.Request)  {
+func GetContact(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	client, ctx := Database.GetConnectionMongo()
 	collection := client.Database("GO-REST-API").Collection("contacts")
@@ -83,7 +83,7 @@ func CreateContact(w http.ResponseWriter, r *http.Request) {
 	_ = json.NewEncoder(w).Encode(result)
 }
 
-func UpdateContact(w http.ResponseWriter, r *http.Request)  {
+func UpdateContact(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	client, ctx := Database.GetConnectionMongo()
 	collection := client.Database("GO-REST-API").Collection("contacts")
@@ -105,7 +105,7 @@ func UpdateContact(w http.ResponseWriter, r *http.Request)  {
 			{"lastname", contact.LastName},
 			{"phoneNumber", contact.PhoneNumber},
 			{"email", contact.Email},
-			},
+		},
 		},
 	}
 
@@ -120,7 +120,7 @@ func UpdateContact(w http.ResponseWriter, r *http.Request)  {
 	_ = json.NewEncoder(w).Encode(contact)
 }
 
-func DeleteContact(w http.ResponseWriter, r *http.Request)  {
+func DeleteContact(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	client, ctx := Database.GetConnectionMongo()
 	collection := client.Database("GO-REST-API").Collection("contacts")
